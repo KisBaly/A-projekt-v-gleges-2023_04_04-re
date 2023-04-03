@@ -1,0 +1,187 @@
+#jatekter
+{
+    border: 1px solid black;
+    width: 100%;
+    height: 40vw;
+    display: flex;
+}
+
+#leftside
+{
+    width: 30%;
+    height: 40vw;
+    
+}
+#kartyabox
+{
+    background-color: black;
+    border: 1px solid black;
+    width: 99.2%;
+    height: 20vw;
+    background-image: url(../hatterek/wp5145519.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#kartyabox:hover
+{
+    border: 3px solid white;
+    opacity: 95%;
+   
+}
+
+#pontbox
+{
+    background-color: black;
+    border: 1px solid black;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../hatterek/sarkany.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tabla
+{
+    
+    border: 1px solid black;
+    width: 60%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+.sordiv
+{
+    display: flex;
+    flex-direction: row;
+    height: 8vw;
+    
+}
+
+.oszlopdiv
+{
+    width: 16.6%;
+    margin: 3px;
+    
+    
+}
+.oszlopdiv:hover
+{
+    border: 5px solid white;
+    border-radius: 5p;
+    opacity: 70%;
+}
+
+
+.sordiv, .oszlopdiv
+{
+    border: 1px solid black;
+    background-image: url(../hatterek/veglegeskofal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img{
+
+    /*width : 100%; */
+    border: 10px;
+}
+
+body
+{
+    background-image: url(../hatterek/veglegeskofal.jpg);
+   border: 5px solid red;
+}
+
+
+#korbox
+{
+    background-color: black;
+    border: 1px solid black;
+    width: 29%;
+    height: 40vw;
+    background-image: url(../hatterek/ff5a3c5836cb1e579130fba00581703c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#potHely
+{
+    border: 1px solid black;
+    background-image: url(../hatterek/veglegeskofal.jpg);
+    
+
+}
+.kep1
+{
+    border: 1px solid black;
+}
+.kep1:hover
+{
+    border: 2px solid white;
+    border-radius: 5p;
+    opacity: 80%;
+}
+#nev
+{
+    border: 1px solid black;
+    background-image: url(../hatterek/veglegeskofal.jpg);
+    height: 150px;
+}
+
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+#korszam
+{
+    border: 2px solid black;
+    height: 50px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../hatterek/veglegeskofal.jpg);
+    
+}
+
+
+#sorosszeg
+{
+    border: 2px solid black;
+    height: 50px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../hatterek/veglegeskofal.jpg);
+   
+}
